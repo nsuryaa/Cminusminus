@@ -16,7 +16,7 @@ void addTenToNumberReference(unsigned short &number)
 
 int main()
 {
-    unsigned short myNumber = 5;
+    unsigned short myNumber = 10;
 
     addTenToNumberReference(myNumber);
     cout << "Value after call by value: " << myNumber << endl;
